@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-welcome {
+  background-color:#0f0e13;
+  background-image:#222136;background-image:  
+  radial-gradient(at 20% 29%, hsla(324,20%,21%,1) 0, transparent 70%);
+}
+
+.gradient-bg-services {
+  background-color:#0f0e13;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 100%, hsla(225,39%,25%,1) 0, transparent 50%);
+}
+
+.gradient-bg-footer {
+  background-color: #0f0e13;
+  background-image: 
+    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,25%,1) 0, transparent 50%);
+}
+
+
+
+
+
+.blue-glassmorphism {
+  background: rgba(97, 87, 141, 0.507);
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(5px);
+  
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.eth-card {
+  background-image:#d38b27;background-image:  
+    radial-gradient(at 89% 25%, hsla(40,70%,49%,1) 0, transparent 44%),  
+    radial-gradient(at 50% 11%, hsla(40,100%,50%,1) 0, transparent 57%),  
+    radial-gradient(at 96% 93%, hsla(52,88%,51%,1) 0, transparent 45%),  
+    radial-gradient(at 15% 23%, hsla(40,98%,71%,1) 0, transparent 46%),  
+    radial-gradient(at 25% 36%, hsla(40,100%,50%,1) 0, transparent 54%),  
+    radial-gradient(at 39% 96%, hsla(40,100%,50%,1) 0, transparent 52%),  
+    radial-gradient(at 42% 57%, hsla(92,79%,40%,1) 0, transparent 52%);
+   border: 3px solid #916b00;
+   -webkit-box-shadow: inset 0px 0px 14px 2px rgba(38,31,10,0.94); 
+   box-shadow: inset 0px 0px 14px 2px rgba(38,31,10,0.94);
+   
+}
+
+.wrappeth{
+  padding: 0;
+  margin: 0;
+  -webkit-box-shadow: 0px 0px 24px 2px rgb(19, 15, 5); 
+  box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.94);
+}
+
+.text-gradient {
+  
+  background-color: transparent;
+  background-image: radial-gradient(at -5% 5%, rgba(255, 255, 255, 0.822) 0, transparent 100%), radial-gradient(at 100% 90%, rgb(0, 0, 0) 0, transparent 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.transacrion-bg{
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(2px);
+  background: rgba(106, 129, 52, 0.384);
+  background: radial-gradient(circle, rgba(106, 129, 52, 0.925) 0%, rgba(190, 124, 48, 0.589) 100%);
+  -webkit-box-shadow: 1px 5px 19px 2px #030201; 
+   box-shadow: 1px 5px 19px 2px #030201;
+
+}
+.transacrion-bg:hover{
+  background: rgba(106, 129, 52, 0.384);
+  background: radial-gradient(circle, rgba(106, 129, 52, 0.404) 0%, rgba(190, 124, 48, 0.123) 100%);
+}
+
+.wrapp-welcome{
+  
+  background-image: url('../images/sunrise-ge82fbd182_1920.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:bottom;
+  height: 100vh;
+  -webkit-box-shadow: inset 0px -10px 15px -3px #000000; 
+  box-shadow: inset 0px -10px 15px -3px #000000;
+  
+}
+.spacer{
+  height: 80px;
+  width: 100%;
+  background: rgb(15,14,19);
+  background: linear-gradient(0deg, rgba(15,14,19,1) 0%, rgba(0,0,0,1) 100%);
+
+}
+
+.connect{
+  width: 200px;
+
+}
+
+.send{
+ 
+}
+
+.icon{
+  font-size: 30px;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
